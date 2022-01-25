@@ -1,14 +1,12 @@
-import React from "react";
 import {MOCK_PROJECTS} from './MockProjects';
+import ProjectsList from './ProjectsList';
 
 function ProjectsPage() {
     return (
-        <React.Fragment>
+        <>
             <h1>Projects</h1>
-            <pre>
-                {JSON.stringify(MOCK_PROJECTS, null, ' ')}
-            </pre>
-        </React.Fragment>
+            <ProjectsList projects={MOCK_PROJECTS} />
+        </>
     );
 };
 
