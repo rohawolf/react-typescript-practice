@@ -1,0 +1,27 @@
+{
+  "name": "react-typescript-practice",
+  "version": "1.0.0",
+  "description": "react with typescript practices",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rohawolf/react-typescript-practice.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "Roha Park (rohawolf@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohawolf/react-typescript-practice/issues"
+  },
+  "homepage": "https://github.com/rohawolf/react-typescript-practice#readme"
+}
