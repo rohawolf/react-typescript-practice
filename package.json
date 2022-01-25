@@ -4,11 +4,14 @@
   "description": "react with typescript practices",
   "main": "index.js",
   "dependencies": {
-    "typescript": "^4.5.5"
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "magic": "webpack"
   },
   "repository": {
     "type": "git",
